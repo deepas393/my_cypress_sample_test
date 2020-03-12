@@ -1,0 +1,23 @@
+{
+  "name": "my_cypress_sample_test",
+  "version": "1.0.0",
+  "description": "A simple cypress sample test",
+  "main": "index.js",
+  "scripts": {
+    "allTestsInChrome_Headed": "./node_modules/.bin/cypress run --headed --browser chrome",
+    "allTestsInChrome_Headless": "./node_modules/.bin/cypress run --headless --browser chrome"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/deepas393/my_cypress_sample_test.git"
+  },
+  "author": "Deepa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deepas393/my_cypress_sample_test/issues"
+  },
+  "homepage": "https://github.com/deepas393/my_cypress_sample_test#readme",
+  "dependencies": {
+    "cypress": "^4.1.0"
+  }
+}
